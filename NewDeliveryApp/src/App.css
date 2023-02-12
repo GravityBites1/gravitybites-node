@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato:wght@300;400;700&family=Nunito:wght@300;400;500;600&family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  width: 100%;
+  background: #fff;
+}
+.all-data {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  margin: auto;
+}
+
+.profiler {
+  width: 100%;
+  border: 2px solid black;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.profiler-documents {
+  height: 40%;
+  width: 100%;
+}
+.profiler-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30%;
+}
+.updateStatus {
+  display: flex;
+  height: 20%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  height: 100%;
+  width: 100%;
+  background: #f8f8ff;
+  align-items: center;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.nav-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+.modal-content {
+  width: 600px;
+}
+.modal-body {
+  width: 600px;
+}
+
+.sidebar ul li {
+  list-style: none;
+  width: 100%;
+  height: 4.5rem;
+  padding: 0.5rem;
+}
+.sidebar ul li a {
+  color: gray;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sidebar ul li a h3 {
+  width: 73%;
+  font-size: 1rem;
+}
+.sidebar ul li a img {
+  height: 1.6rem;
+}
+.sidebar ul li a:hover {
+  cursor: pointer;
+  color: blue;
+}
+/* .sidebar ul li a span {
+  width: 230%;
+} */
+
+.active {
+  transform: translate(-160px, 0px);
+}
+
+.row {
+  display: flex;
+  padding: 2px;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.row1 {
+  display: flex;
+  padding: 2px;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.row2 {
+  display: grid;
+  justify-content: space-between;
+  padding: 2px;
+  color: rgb(135, 134, 134);
+  font-weight: bold;
+}
+
+.appbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  max-width: 100px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  background-color: #a9a9a9;
+  margin: 24px 150px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  float: left;
+}
+
+.appbtn:hover {
+  background-color: #6495ed;
+}
+.disappbtn:hover {
+  background-color: #6495ed;
+}
+.button {
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+.txt {
+  display: flex;
+  padding: 5px;
+  font-size: 20px;
+  justify-content: space-between;
+  font-weight: bold;
+  padding-top: 10px;
+  margin: 15px 3px;
+  padding-left: 15px;
+}
+
+.txt1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  color: rgb(135, 134, 134);
+  font-weight: bold;
+  margin: 15px 10px;
+}
+.txt3 {
+  display: grid;
+  padding: 5px;
+  font-size: 20px;
+  justify-content: space-between;
+  font-weight: bold;
+  padding-top: 10px;
+  margin: 15px 20px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  max-width: 100px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  background-color: #a9a9a9;
+  margin: 8px 30px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #6495ed;
+}
+.topHeader {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  background: #f8f8ff;
+}
+.top_title {
+  display: flex;
+  width: 80%;
+}
+.bottomHeader {
+  width: 100%;
+  background-color: #ebeff6;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.lefty {
+  width: 19%;
+  height: 100%;
+}
+.righty {
+  width: 76%;
+  margin-right: 2%;
+  height: 100%;
+  overflow: scroll;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.txty {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  color: rgb(135, 134, 134);
+  font-weight: bold;
+  margin: 15px 10px;
+}
